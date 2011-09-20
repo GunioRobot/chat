@@ -9,4 +9,4 @@ http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
   //finish it up with what you want to send to the client
   res.end("Hello!");
-}).listen(8000); //Tell it to listen on port 8000
+}).listen(80); //Tell it to listen on port 8000
