@@ -4,7 +4,7 @@ var sys = require('sys'),
 http.createServer(function(request, response) {
   setTimeout(function() {
     response.writeHead(200, {'Content-Type': 'text/plain'});
-    response.write('Hello World');
+    response.write('Hello sad World');
     response.end();
   }, 2000);
 }).listen(8000);
