@@ -1,4 +1,5 @@
 { "name": "crushes"
 , "version": "1.0.0"
+, "start": "global.js"
 , "dependencies":
   {} }
