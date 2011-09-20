@@ -9,7 +9,7 @@ http.createServer(function (req, res) {
   req.addListener('data', function(data){
     thing = data.toString();
     }).addListener('end', function() {
-      res.end("Post data:"+thing);
+      res.end("Hello, "+thing+".");
     });  
 
 }).listen(80);
