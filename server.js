@@ -8,4 +8,4 @@ http.createServer(function(request, response) {
     response.end();
   }, 2000);
 }).listen(8000);
-sys.puts('Server running at http://127.0.0.1:8000');
+sys.puts('Server running at http://crushes.no.de:8000');
