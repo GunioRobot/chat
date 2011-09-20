@@ -1,8 +1,4 @@
-{
-    "name": "my-app",
-    "version": "1.0.0",
-    "scripts": {
-      "start": "node server.js"
-    },
-    dependencies": {}
-}
+{ "name": "crushes"
+, "version": "1.0.0"
+, "dependencies":
+  {} }
