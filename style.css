@@ -59,6 +59,7 @@ a:hover { text-decoration: underline; color: #0B0974; }
   width: 100%; 
   bottom: 0;
   background: #733;
+  border-top: 2px dashed #f995cd;
 }
 
 #entry {
