@@ -84,7 +84,7 @@ a:hover { text-decoration: underline; color: #0B0974; }
 /* not very important info */
 .notice td, .join td, .part td, .message .date { color: #514ED9; }
 .error td { color: #933; }
-.personal .nick, .notice .nick { color: #cd5; }
+.personal .nick, .notice .nick { color: #514ED9; }
 
 .message {
   margin: 0.1em 0;
