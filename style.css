@@ -68,9 +68,9 @@ a:hover { text-decoration: underline; color: #0B0974; }
   font-size: inherit;
   padding: 1em;
   margin: 0;
-  border-width: 0;
+  border: 1px dotted #333;
   outline-width: 0;
-  clear: both;
+  /* clear: both; */
 }
 
 #log {
