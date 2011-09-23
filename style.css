@@ -12,15 +12,17 @@ body, #entry {
 }
 
 body, table {
-  font-size: 12pt;
+  font-size: 10pt;
   line-height: 150%;
 }
+
 tr,td,table {
   padding: 0;
   margin: 0;
   outline-width: 0;
   border-width: 0;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0
@@ -58,7 +60,7 @@ a:hover { text-decoration: underline; color: #0B0974; }
   color: #fff;
   width: 100%; 
   bottom: 0;
-  border-top: 2px dashed #f995cd;
+  border-top: dotted 1px #F59696
 }
 
 #entry {
