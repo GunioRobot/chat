@@ -2,39 +2,32 @@ body {
   padding: 0;
   margin: 0;
 }
-
 body, #entry {
-  background-color: #fff;
-  font-family: Helvetica, sans-serif;    
-  margin: 0;
-  padding: 0;
-  color: #000;
+  background: #22252a;
+  color: #eee;
 }
-
 body, table {
-  font-size: 10pt;
+  font-family: DejaVu Sans Mono, fixed; 
+  font-size: 14pt;
   line-height: 150%;
 }
-
 tr,td,table {
   padding: 0;
   margin: 0;
   outline-width: 0;
   border-width: 0;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0
 }
 
 
-a { text-decoration: none; color: #0B0974; }
-a:hover { text-decoration: underline; color: #0B0974; }
-
+a { text-decoration: none; color: #888; }
+a:hover { text-decoration: underline; color: #aaa; }
 
 #loading, #connect {
-  background: #fff;
+  background: #22252a;
   position: fixed;
   top: 0;
   left: 0;
@@ -47,14 +40,9 @@ a:hover { text-decoration: underline; color: #0B0974; }
 #connect { z-index: 10000001; }
 
 #loading p, #connect fieldset  {
-  font-family: Helvetica, sans-serif;    
+  font-family: DejaVu Sans Mono, fixed; 
   width: 30em;
   border: 0;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px dashed #f995cd;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 #toolbar {
@@ -62,7 +50,7 @@ a:hover { text-decoration: underline; color: #0B0974; }
   color: #fff;
   width: 100%; 
   bottom: 0;
-  border-top: dotted 1px #F59696
+  background: #733;
 }
 
 #entry {
@@ -70,9 +58,9 @@ a:hover { text-decoration: underline; color: #0B0974; }
   font-size: inherit;
   padding: 1em;
   margin: 0;
-  border: 1px dotted #333;
+  border-width: 0;
   outline-width: 0;
-  /* clear: both; */
+  clear: both;
 }
 
 #log {
@@ -84,9 +72,9 @@ a:hover { text-decoration: underline; color: #0B0974; }
 }
 
 /* not very important info */
-.notice td, .join td, .part td, .message .date { color: #514ED9; }
+.notice td, .join td, .part td, .message .date { color: #555; }
 .error td { color: #933; }
-.personal .nick, .notice .nick { color: #514ED9; }
+.personal .nick, .notice .nick { color: #cd5; }
 
 .message {
   margin: 0.1em 0;
@@ -109,19 +97,14 @@ a:hover { text-decoration: underline; color: #0B0974; }
   margin: 0;
   padding: 0;
   list-style: none;
-  display: none;
 }
 
 #toolbar li {
   display: block; 
-  float: right;
+  float: left;
   margin: 0 2em 0 0;
-  color: #000;
-  font-size: 10pt;
 }
 
 #usersLink {
   color: inherit;
 }
-
-

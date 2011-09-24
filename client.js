@@ -219,7 +219,7 @@ function addMessage (from, text, time, _class) {
   // If the current user said this, add a special css class
   var nick_re = new RegExp(CONFIG.nick);
   if (nick_re.exec(text))
-  //  messageElement.addClass("personal");
+    messageElement.addClass("personal");
 
   // replace URLs with links
   text = text.replace(util.urlRE, '<a target="_blank" href="$&">$&</a>');
